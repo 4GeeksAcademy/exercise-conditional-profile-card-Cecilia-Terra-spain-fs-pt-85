@@ -38,7 +38,8 @@ function render(variables = {}) {
     "Last Name"}</h1>              
           <h2>${variables.role || "Role"}</h2>
           <h3>${variables.city || "City"}</h3>
-
+          <h3>${variables.country || "Country"}</h3>
+ 
 
           <ul class="${variables.socialMediaPosition}" >     
             <li><a href="https://twitter.com/4geeksacademy"><i class="fab fa-twitter"></i></a></li>
